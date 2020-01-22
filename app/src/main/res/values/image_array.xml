@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="image_array">
+
+        <item name = "item_0">@drawable/skeleton_01_fly_00</item>
+        <item name = "item_1">@drawable/skeleton_01_fly_01</item>
+        <item name = "item_2">@drawable/skeleton_01_fly_02</item>
+        <item name = "item_3">@drawable/skeleton_01_fly_03</item>
+        <item name = "item_4">@drawable/skeleton_01_fly_04</item>
+        <item name = "item_5">@drawable/skeleton_01_fly_05</item>
+        <item name = "item_6">@drawable/skeleton_01_fly_06</item>
+        <item name = "item_7">@drawable/skeleton_01_fly_07</item>
+        <item name = "item_8">@drawable/skeleton_01_fly_08</item>
+        <item name = "item_9">@drawable/skeleton_01_fly_09</item>
+        <item name = "item_10">@drawable/skeleton_01_fly_10</item>
+        <item name = "item_11">@drawable/skeleton_01_fly_11</item>
+        <item name = "item_12">@drawable/skeleton_01_fly_12</item>
+        <item name = "item_13">@drawable/skeleton_01_fly_13</item>
+        <item name = "item_14">@drawable/skeleton_01_fly_14</item>
+        <item name = "item_15">@drawable/skeleton_01_fly_15</item>
+        <item name = "item_16">@drawable/skeleton_01_fly_16</item>
+
+    </array>
+
+</resources>
