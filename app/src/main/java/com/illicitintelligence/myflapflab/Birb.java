@@ -7,6 +7,7 @@ import android.graphics.BitmapFactory;
 import android.graphics.Canvas;
 import android.graphics.Paint;
 import android.graphics.PointF;
+import android.graphics.RectF;
 import android.view.View;
 
 public class Birb {
@@ -26,15 +27,21 @@ public class Birb {
 
     public Birb(View parent) {
         frames = parent.getResources().obtainTypedArray(R.array.image_array);
-        setStartValues();
+        setStartValues(parent.getResources());
     }
 
-    public void setStartValues() {
+    public void setStartValues(Resources res) {
         frameIndex = 0;
         position.x = 30f;
         position.y = 480f;
         velocity.x = 0f;
         velocity.y = -12f;
+        texture = BitmapFactory.decodeResource(res, R.drawable.skeleton_01_fly_00);
+        texture = Bitmap.createScaledBitmap(texture, texture.getWidth() / scale, texture.getHeight() / scale, false);
+    }
+
+    public RectF getBirdBounds() {
+        return new RectF(position.x + 20, position.y + 20, texture.getWidth() + position.x - 10, position.y + texture.getHeight() - 20);
     }
 
     public void onClick() {

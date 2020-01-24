@@ -14,6 +14,12 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
+        android:elevation="0dp"
+        />
+
+    <include
+        android:id="@+id/main_menu_screen"
+        layout="@layout/main_menu_layout"
         />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
